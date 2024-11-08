@@ -56,6 +56,4 @@ def run_scraper():
 
     driver.close(context)
 
-while True:
-    run_scraper()
-    t.sleep(60 * 60 * 6)
+run_scraper()
